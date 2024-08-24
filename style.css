@@ -73,14 +73,20 @@ body{
     align-items: center;
 }
 
-#top-right > img{
-    height: 40px;
+#top-right > #bell{
+    height: 35px;
+    width: auto;
+}
+
+#top-right > #wolf{
+    background-color: #FFFDD0;
+    height: 56px;
     width: auto;
     border-radius: 50px;
 }
 
 #top-right > h7{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 700;
 }
 
@@ -248,4 +254,3 @@ body{
     height: 65px;
     width: auto;
 }
-
