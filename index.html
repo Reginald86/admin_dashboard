@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content=""IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js">defer</script>
@@ -12,11 +12,11 @@
 
     <div class ="container">
         <div class = "header">
-            <div id = "top-left">
+            <div class = "top-left">
                 <img src ="images/header/search.svg" alt ="search" id="search">
                 <input type="text" id="name" name="input">
             </div>
-            <div id = "top-right">
+            <div class = "top-right">
                 <img src ="images/header/bell.svg" alt="bell" id="bell">
                 <img src = "images/header/blacksheep.png" alt="sheep" id="sheep">
                 <h7>Reginald Green</h7>
@@ -35,13 +35,13 @@
                     <button>Upload</button>
                     <button>Share</button>
                 </div>
-            
-        </div>
 
+        </div>
+                
         <div class = "sidebar">
             <div class = "dashboard">
-                <img src="./images/sidebar/dashboard.svg" alt="dashboard" class ="dash">  
-                <h4>Dashboard</h4>
+                <img src="./images/sidebar/dashboard.svg" alt="dashboard" id="dash">  
+                <h2>Dashboard</h2>
             </div>
             <div class = "links">
                 <img src="./images/sidebar/home.svg" alt="home" class ="svg">  
@@ -79,34 +79,29 @@
                 <img src="./images/sidebar/privacy.svg" alt="privacy" class ="svg">  
                 <a href="#">Privacy</a>
             </div>
-        </div>   
+        </div>    
 
         <div class = "main">
-            <div class = "main_mid">
-                <div class = "projects">
-                    <h5 id ="projects">Your Projects</h5>
-                </div>  
-                <div class = "cards">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+            <span>BlackSheep</span>
+            <div class = "cards">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
 
-            <div class = "main_side">
-                <div class = "announce">
-                    <h5>Annoucements</h5>  
-                    <div></div> 
-                </div>
-                <div class="trending">
-                    <h5>Trending</h5>
-                    <div></div>
-                </div>
+            <span id = "Trend">BlackSheep</span>
+            
+            <div class = "main-side">
+                <div></div>
+                <span>Trending</span>
+                <div></div>
+
             </div>
-        </div>
+
+        </div>     
     </div>
 
 
